@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #9D77FC;
+}
+
+header{
+    background-color: #767CE5;
+
+}
+
+
+ul{
+    display: flex; 
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+li a{
+    margin-left: 3px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    background-color: #767CE5;
+}
+
+li a:hover {
+    background-color: #9D77FC;
+    color: white;
+}
+
+.principal{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #767CE5;
+}
+
+div{
+    font-size: 2em;
+}
+div:hover{
+    color: #9D77FC;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+}
+
+li.escondida{
+    display: none;
+}
+
+div > li > a > li{
+    display: block;
+}
+
+
+
